@@ -449,20 +449,20 @@
             <div class="row mb15">
                 <div class="col-sm-5 leftReveal">
                     <h5 class="heading-1 mb20">My Work Ethic</h5>
-                    <h3 class="mb15 no-margin-top">Openly accepting challenges, learning and growing to become <br>a better me.</h3>
+                    <h3 class="mb15 no-margin-top">Openly accepting challenges, learning and growing to become a better me.</h3>
                     <p class="no-margin text-small">Software development is about problem solving. Something that I love doing and I openly <strong>embrace</strong></p>
                 </div><!-- /.column -->
                 <div class="col-sm-7 mt30-xs rightReveal">
-                    <h5 class="heading-1 mb20">How we started it</h5>
-                    <span class="icon-handle-streamline-vector logo-about"></span>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras est urna, imperdiet eget sem at, pellentesque cursus elit. Etiam id ante et elit interdum sollicitudin. Cras imperdiet, arcu eget dictum vestibulum elit.</p>
-                    <p>Curabitur egestas interdum ex, sed commodo ipsum consectetur vitae. Nulla auctor ante erat. Class aptent taciti sociosqu nostra enean sed.</p>
+                    <h5 class="heading-1 mb20">I am Microsoft focused</h5>
+                    <!--<span class="icon-handle-streamline-vector logo-about"></span>-->
+                    <p>Back in 2010 I made the conscious decision to focus all my efforst on learning C# and everything related to Microsoft. Today I still actively promote Microsoft technologies for everyhing. No matter if it is desktop, web development of some office suite that a user requires, I would always refer to them to a Microsoft based product. </p>
+                    <p>My house is fully integrated with Office 365. All the computers and cell phones have one drive and the Office suites installed! </p>
                 </div><!-- /.column -->
             </div><!-- /.row -->
             <div class="row mb30">
                 <div class="col-sm-9 leftReveal">
-                    <h5 class="heading-1 mb20">Why?</h5>
-                    <p class="lead no-margin">Lorem ipsum dolor sit amet, consectetur adipicing elit. tristique enim. Integer euef neque arcu. Aenean sed odio nibh. <strong>Cras imperdiet</strong>, arcu eget dictum vestibulumizor. Lorem ipsil dolor sit amet, consectetur adipiscing elit.</p>
+                    <h5 class="heading-1 mb20">My Family</h5>
+                    <p class="lead no-margin">I have been married for <span class="marriedToDateYears"></span> Years. fsdosdopksdpoksdposdkf</p>
                 </div><!-- /.column -->
                 <div class="col-sm-3 mt30-xs rightReveal">
                     <h5 class="heading-1 mb20">Quote</h5>
@@ -1202,6 +1202,9 @@
         $(document).ready(function () {
             var experienceInCSharp = moment().subtract(2010, 'years').year();
             $(".cSharpExperience").text(experienceInCSharp);
+
+            var marriedToDateYears = moment().subtract(2013, 'years').year();
+            $(".marriedToDateYears").text(marriedToDateYears);
         })
 
     </script>
